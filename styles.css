@@ -432,6 +432,19 @@ body {
     font-weight: bold;
 }
 
+.experience-list li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.experience-list li a:hover {
+    color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+}
+
 /* Skills */
 .skills-grid {
     display: grid;
