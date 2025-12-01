@@ -864,6 +864,19 @@ body {
     font-size: 0.95rem;
 }
 
+.award-description a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.award-description a:hover {
+    color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+}
+
 /* Photos Section */
 .section-subtitle {
     text-align: center;
